@@ -1,138 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>India's Election Ink</title>
-    <style>body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        background-color: beige;
-    }
-    header {
-        text-align: center;
-        padding: 20px;
-    }
-    .content {
-        max-width: 800px;
-        margin: auto;
-    }
-    .activity {
-        margin-top: 30px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-    }
-    .activity button {
-        padding: 10px 20px;
-        background-color: #28a745;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    .activity button:hover {
-        background-color: #218838;
-    }
-    .question {
-        margin-bottom: 20px;
-    }</style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>The Indelible Mark of Democracy</h1>
-    <p>The Story of India's Election Ink</p>
-</header>
+    <header>
+        <h1>The Indelible Mark of Democracy</h1>
+        <p>The Story of India's Election Ink</p>
+    </header>
 
-<div class="content">
-    <section>
-        <h2>Introduction</h2>
-        <p>India, the world's largest democracy, uses a unique tool to ensure the integrity of its electoral process: indelible ink. This ink marks voters' fingers to prevent multiple voting, symbolizing the transparency and fairness of Indian elections.</p>
-    </section>
+    <div class="content">
+        <section>
+            <h2>Introduction</h2>
+            <p>India, the world's largest democracy, uses a unique tool to ensure the integrity of its electoral
+                process: indelible ink. This ink marks voters' fingers to prevent multiple voting, symbolizing the
+                transparency and fairness of Indian elections.</p>
+        </section>
 
-     <section>
+        <section>
+            <h2>History</h2>
+            <p>The idea of using indelible ink was proposed by India's first Chief Election Commissioner, Sukumar Sen.
+                Developed by the National Physical Laboratory (NPL) in the 1950s, the ink has been a staple in Indian
+                elections since the third general elections in 1962.</p>
+        </section>
+
+        <section>
             <h2>Composition</h2>
-            <p>The key component is silver nitrate which stain the skin in 40 seconds upon exposure to ultraviolet light. It contains solvent such as alcohol for faster drying. This stain is impossible to wash off and remains visible until external skin cells are replaced.</p>
-    </section>
+            <p>The key component is silver nitrate which stain the
+                skin in 40 seconds upon exposure to ultraviolet light.
+                It contains solvent such as alcohol for faster drying.
+                This stain is impossible to wash off and remains visible
+                until external skin cells are replaced.
+            </p>
+        </section>
 
-    <section>
-        <h2>History</h2>
-        <p>The idea of using indelible ink was proposed by India's first Chief Election Commissioner, Sukumar Sen. Developed by the National Physical Laboratory (NPL) in the 1950s, the ink has been a staple in Indian elections since the third general elections in 1962.</p>
-    </section>
+        <section>
+            <h2>Manufacturing</h2>
+            <p>The manufacturing of this special ink is handled by Mysore Paints and Varnish Limited (MPVL) in
+                Karnataka. Established in 1937, MPVL is the sole supplier of indelible ink for Indian elections and
+                exports it to over 35 countries.</p>
+        </section>
 
-    <section>
-        <h2>Manufacturing</h2>
-        <p>The manufacturing of this special ink is handled by Mysore Paints and Varnish Limited (MPVL) in Karnataka. Established in 1937, MPVL is the sole supplier of indelible ink for Indian elections and exports it to over 35 countries.</p>
-    </section>
+        <section>
+            <h2>Evolution</h2>
+            <p>Initially, black ink was used, but it was later changed to purple to ensure visibility on all skin tones.
+                This change was crucial in maintaining the ink's effectiveness and visibility.</p>
+        </section>
 
-    <section>
-        <h2>Evolution</h2>
-        <p>Initially, black ink was used, but it was later changed to purple to ensure visibility on all skin tones. This change was crucial in maintaining the ink's effectiveness and visibility.</p>
-    </section>
+        <section>
+            <h2>Applications</h2>
+            <p>Besides elections, indelible ink has been used in polio immunization drives and during the demonetization
+                period to mark those who exchanged currency notes.</p>
+        </section>
 
-    <section>
-        <h2>Applications</h2>
-        <p>Besides elections, indelible ink has been used in polio immunization drives and during the demonetization period to mark those who exchanged currency notes.</p>
-    </section>
-
-    <div class="activity">
-        <h3>Quiz: Test Your Knowledge!</h3>
-        <div id="quiz">
-            <div class="question" id="question1">
-                <p><strong>Question 1:</strong> Who proposed the idea of using indelible ink in Indian elections?</p>
-                <button onclick="checkAnswer(1, 'A')">A. Sukumar Sen</button>
-                <button onclick="checkAnswer(1, 'B')">B. Maharaja Nalwadi Krishnaraja Wadiyar</button>
-                <button onclick="checkAnswer(1, 'C')">C. Jawaharlal Nehru</button>
-                <button onclick="checkAnswer(1, 'D')">D. Mahatma Gandhi</button>
+        <div class="activity">
+            <h3>Quiz: Test Your Knowledge!</h3>
+            <div id="quiz">
+                <div class="question" id="question1">
+                    <p><strong>Question 1:</strong> Who proposed the idea of using indelible ink in Indian elections?
+                    </p>
+                    <button onclick="checkAnswer(1, 'A')">A. Sukumar Sen</button>
+                    <button onclick="checkAnswer(1, 'B')">B. Maharaja Nalwadi Krishnaraja Wadiyar</button>
+                    <button onclick="checkAnswer(1, 'C')">C. Jawaharlal Nehru</button>
+                    <button onclick="checkAnswer(1, 'D')">D. Mahatma Gandhi</button>
+                </div>
+                <div class="question" id="question2" style="display:none;">
+                    <p><strong>Question 2:</strong> What was the original color of the election ink?</p>
+                    <button onclick="checkAnswer(2, 'A')">A. Purple</button>
+                    <button onclick="checkAnswer(2, 'B')">B. Blue</button>
+                    <button onclick="checkAnswer(2, 'C')">C. Black</button>
+                    <button onclick="checkAnswer(2, 'D')">D. Green</button>
+                </div>
+                <div class="question" id="question3" style="display:none;">
+                    <p><strong>Question 3:</strong> Where is the indelible ink manufactured?</p>
+                    <button onclick="checkAnswer(3, 'A')">A. Mumbai</button>
+                    <button onclick="checkAnswer(3, 'B')">B. Delhi</button>
+                    <button onclick="checkAnswer(3, 'C')">C. Mysore</button>
+                    <button onclick="checkAnswer(3, 'D')">D. Kolkata</button>
+                </div>
+                <div class="question" id="question4" style="display:none;">
+                    <p><strong>Question 4:</strong> What is the key component of indelibleink?</p>
+                    <button onclick="checkAnswer(4, 'A')">A. silver acetate </button>
+                    <button onclick="checkAnswer(4, 'B')">B. silver fluoride</button>
+                    <button onclick="checkAnswer(4, 'C')">C. silver nitride</button>
+                    <button onclick="checkAnswer(4, 'D')">D. silver nitrate</button>
+                </div>
+                <div class="question" id="question5" style="display:none;">
+                    <p><strong>Question 5:</strong> Mysore Paints and Varnish Limited (MPVL) was Established in the year ____</p>
+                    <button onclick="checkAnswer(5, 'A')">A. 1947</button>
+                    <button onclick="checkAnswer(5, 'B')">B. 1937</button>
+                    <button onclick="checkAnswer(5, 'C')">C. 1962</button>
+                    <button onclick="checkAnswer(5, 'D')">D. 1950s</button>
+                </div>
+                <p id="resultMessage" style="display:none; color: green; margin-top: 10px;"></p>
             </div>
-            <div class="question" id="question2" style="display:none;">
-                <p><strong>Question 2:</strong> What was the original color of the election ink?</p>
-                <button onclick="checkAnswer(2, 'A')">A. Purple</button>
-                <button onclick="checkAnswer(2, 'B')">B. Blue</button>
-                <button onclick="checkAnswer(2, 'C')">C. Black</button>
-                <button onclick="checkAnswer(2, 'D')">D. Green</button>
-            </div>
-            <div class="question" id="question3" style="display:none;">
-                <p><strong>Question 3:</strong> Where is the indelible ink manufactured?</p>
-                <button onclick="checkAnswer(3, 'A')">A. Mumbai</button>
-                <button onclick="checkAnswer(3, 'B')">B. Delhi</button>
-                <button onclick="checkAnswer(3, 'C')">C. Mysore</button>
-                <button onclick="checkAnswer(3, 'D')">D. Kolkata</button>
-            </div>
-            <p id="resultMessage" style="display:none; color: green; margin-top: 10px;"></p>
         </div>
     </div>
-</div>
 
-<script>var correctAnswers = {
-    1: 'A',
-    2: 'C',
-    3: 'C'
-};
-var currentQuestion = 1;
-
-function checkAnswer(question, answer) {
-    if (correctAnswers[question] === answer) {
-        document.getElementById('resultMessage').textContent = 'Correct!';
-    } else {
-        document.getElementById('resultMessage').textContent = 'Incorrect, try again.';
-    }
-    document.getElementById('resultMessage').style.display = 'block';
-
-    if (question < 3 && correctAnswers[question] === answer) {
-        setTimeout(function() {
-            document.getElementById('question' + question).style.display = 'none';
-            currentQuestion++;
-            document.getElementById('question' + currentQuestion).style.display = 'block';
-            document.getElementById('resultMessage').style.display = 'none';
-        }, 1000);
-    } else if (question === 3 && correctAnswers[question] === answer) {
-        setTimeout(function() {
-            document.getElementById('quiz').innerHTML = '<p>Congratulations! You have completed the quiz.</p>';
-        }, 1000);
-    }
-}</script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
